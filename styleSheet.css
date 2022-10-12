@@ -1,0 +1,199 @@
+/* -------------------
+    CSS NORMALIZATION
+ ------------------- */
+
+*, *::after, *::before{
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+body{
+    display: grid;
+    background-color: #EFEFEF;
+    grid-template-rows: 2fr auto 1fr;
+    justify-content: center;
+
+}
+
+/* ---------------------
+    HEADER SECTION STYLE 
+ --------------------- */
+
+.header-name{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 90px;
+    margin-top: 52px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-name{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;    
+    letter-spacing: 0.42em;    
+    color: #4797B6;
+}
+.title-blogger::after, .title-designer::after{
+    content: '.';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 0px;
+    color: #4797B6;
+    margin: 0px 8px;
+}
+.social-media{
+    margin: 32px 0px 52px 0px;
+}
+.social-media-twitter, .social-media-dribble, .social-media-feather, .social-media-podcast{
+    margin-right: 22px;
+    text-decoration: none;
+}
+
+
+/* -------------------
+    MAIN SECTION STYLE 
+ ------------------- */
+
+.page-main{
+    width: 843px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 76px 46px;
+}
+
+.article-currently, .article-findme, .article-read{
+    margin-bottom: 46px;
+}
+
+.article-header-currently,
+.article-header-findme,
+.article-header-read{
+    text-align: left;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    color: #CACACA;
+}
+
+.article-body-currently,
+.article-body-findme,
+.article-body-read{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;  
+    color: #6A6A6A;
+    margin-top: 26px;
+}
+
+.horizontal-line-main{
+    border: 1px solid #EEEEEE;
+}
+
+.aside-heading{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.34em;
+    margin-top: 46px;
+}
+.aside-content{
+    margin-top: 38px;
+}
+.aside-link{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #646464;
+    text-decoration: none;
+}
+.aside-link-date{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #646464;
+}
+.aside-link-date::before{
+    content: '.';
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #646464;
+    margin: 0px 6px;
+}
+
+
+.normal-strong{
+    border-bottom: 1px dotted #646464;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+.twitter-strong{
+    border-bottom: 1px dotted #0086a3;
+    color: #0086a3;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+.dialoggs-strong{
+    border-bottom: 1px dotted #474b50;
+    color: #474b50;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+.dribbble-strong{
+    border-bottom: 1px dotted #cc6185;
+    color: #cc6185;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+.instagram-strong{
+    border-bottom: 1px dotted #73655f;
+    color: #73655f;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+.kickstarter-strong{
+    border-bottom: 1px dotted #8dba54;
+    color: #8dba54;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+
+
+/* ----------------------
+    FOOTER SECTION STYLE 
+ ----------------------*/
+
+.horizontal-line-footer{
+    border: 1px solid #c9c9c9;
+    margin-top: 46px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #565656;
+    margin: 28px 0px;
+}
